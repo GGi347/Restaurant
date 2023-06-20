@@ -25,3 +25,8 @@ contactBtn.addEventListener('click', () => {
     clearContent();
     generateContact();
 });
+
+const submitBtn = document.getElementById("form-btn");
+submitBtn.addEventListener('click', () => {
+   alert("Thank you for the message.");
+});
