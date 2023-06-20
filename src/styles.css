@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'primaryFont';
+    src: url('./fonts/Satoshi-Regular.woff2') format('woff2'),
+      url('./fonts/Satoshi-Regular.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'headerFont';
+    src:  url('./fonts/hiromisake.ttf') format('ttf'),
+    url('./fonts/Sdasian-WyDon.ttf') format('ttf');
+    font-weight: 900;
+    font-style: bold;
+}
+
+body{
+    background-color: #f3ede1;
+    margin: 0;
+}
+
+#navbar{
+    margin-top: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 16px;
+}
+
+#nav-items{
+    display: inline;
+    float: right;
+    
+}
+
+a{
+    text-decoration: none;
+    padding: 14px 25px;
+    border: 0;
+    font-family: primaryFont;
+}
+
+a:link{
+    color: #333F72;
+}
+
+a:active, a:hover{
+    color: #E56E0C
+}
+
+#title {
+    font-family: headerFont;
+    font-size: 24px;
+    color: #333F72;
+}
+
+hr{
+    margin-bottom: 0px;
+    margin-top: 16px;
+    color:#E9DAC6;
+    border: 1px solid #E9DAC6;
+    height: 1px; 
+    margin-left: 0;  
+}
+
+#home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#home-content > h1 {
+    color: #333F72;
+    font-family: headerFont;
+    font-size: 42px;
+    text-transform: capitalize;
+    letter-spacing: 0.9px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    width: 60%;
+    text-align: center;
+}
+
+#home-content > p {
+    width: 50%;
+    text-align: center;
+    color: #333F72;
+    font-family: primaryFont;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#home-content > button {
+    text-align: center;
+    background-color: #E56E0C;
+    font-family: primaryFont;
+    color: #fff;
+    width: 180px;
+    height: 60px;
+    border-radius: 24px 0px;
+    border: 1px solid ;
+    font-size: 20px;
+    text-transform:uppercase;
+    margin: 0px;
+}
+
+#homeImg > img {
+    margin-top: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+      
+}
