@@ -32,25 +32,30 @@ body{
     
 }
 
-a{
+button{
     text-decoration: none;
-    padding: 14px 25px;
+    padding-right: 16px;
+    padding-left: 16px;
     border: 0;
     font-family: primaryFont;
-}
-
-a:link{
+    background-color:#f3ede1;
+    font-size: 16px;
     color: #333F72;
 }
 
-a:active, a:hover{
-    color: #E56E0C
+button:focus {
+   color: #E56E0C;
+}
+button:hover{
+    color: #E56E0C;
 }
 
 #title {
     font-family: headerFont;
     font-size: 24px;
     color: #333F72;
+    display: inline;
+    margin-left: 8px;
 }
 
 hr{
