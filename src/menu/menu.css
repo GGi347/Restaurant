@@ -1,10 +1,29 @@
 #menu-container{
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 8% 6%;
-    margin: 20px;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 40% 50%;
+    gap: 6%;
+    margin: 3% 10%;
+    background-color: white;
+    padding-bottom: 24px;
 }
 
-.menu-set{
-    width: 60%;
+#item-one-img-div, #item-two-img-div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 10px;
 }
+
+#item-one-img-div > img{
+    width: 70%;
+    margin-top: 24px;
+} 
+
+#item-two-img-div > img {
+    width: 80%;
+}
+#item-one-list {
+    margin-right: 10px;
+}
+

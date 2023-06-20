@@ -20,11 +20,12 @@ function getItems(){
 }
 
 
-export function generateMenu() {
+export function generateMenu() {   
+    const container = document.getElementById("container");
 
     const menuContainer = document.createElement("div");
     menuContainer.setAttribute("id", "menu-container");
-    document.body.appendChild(menuContainer);
+    container.appendChild(menuContainer);
 
     const itemOneImgDiv = document.createElement("div");
     itemOneImgDiv.setAttribute("id", "item-one-img-div");

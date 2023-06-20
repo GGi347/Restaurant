@@ -2,9 +2,12 @@ import homeImg from './images/homeImg.png';
 import './styles.css';
 
 export function generateHome(){
+
+    const container = document.getElementById("container");
+    
     const homeContent = document.createElement("div");
     homeContent.setAttribute("id", "home-content");
-    document.body.appendChild(homeContent);
+    container.appendChild(homeContent);
     
     const title = document.createElement("h1");
     title.innerHTML = "Taste the tradition of Nepal";
