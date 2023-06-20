@@ -1,7 +1,6 @@
 import homeImg from './images/homeImg.png';
 import './styles.css';
 
-
 export function generateHome(){
     const homeContent = document.createElement("div");
     homeContent.setAttribute("id", "home-content");

@@ -1,0 +1,10 @@
+#menu-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 8% 6%;
+    margin: 20px;
+}
+
+.menu-set{
+    width: 60%;
+}
