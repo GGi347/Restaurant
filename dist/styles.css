@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'primaryFont';
-    src: url('./fonts/Satoshi-Regular.woff2') format('woff2'),
-      url('./fonts/Satoshi-Regular.woff') format('woff');
+    src: url('../src/fonts/Satoshi-Regular.woff2') format('woff2'),
+      url('../src/fonts/Satoshi-Regular.woff') format('woff');
     font-weight: 600;
     font-style: normal;
   }
 
 @font-face {
     font-family: 'headerFont';
-    src:  url('./fonts/hiromisake.ttf') format('ttf'),
-    url('./fonts/Sdasian-WyDon.ttf') format('ttf');
+    src:  url('../src/fonts/hiromisake.ttf') format('ttf'),
+    url('../src/fonts/Sdasian-WyDon.ttf') format('ttf');
     font-weight: 900;
     font-style: bold;
 }

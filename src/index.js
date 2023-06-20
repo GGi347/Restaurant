@@ -26,4 +26,4 @@ contactBtn.addEventListener('click', () => {
     generateContact();
 });
 
-
+generateHome();
