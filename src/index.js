@@ -1,5 +1,5 @@
 
-import { generateHome } from "./home";
+import { generateHome } from "./home/home";
 import { generateMenu } from "./menu/menu";
 import { generateContact } from "./contact/contact";
 
@@ -26,7 +26,4 @@ contactBtn.addEventListener('click', () => {
     generateContact();
 });
 
-const submitBtn = document.getElementById("form-btn");
-submitBtn.addEventListener('click', () => {
-   alert("Thank you for the message.");
-});
+

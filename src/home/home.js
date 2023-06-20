@@ -1,4 +1,4 @@
-import homeImg from './images/homeImg.png';
+import homeImg from '../images/homeImg.png';
 import './home.css';
 
 export function generateHome(){
