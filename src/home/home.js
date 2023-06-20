@@ -1,5 +1,5 @@
 import homeImg from './images/homeImg.png';
-import './styles.css';
+import './home.css';
 
 export function generateHome(){
 
